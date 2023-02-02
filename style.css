@@ -25,6 +25,9 @@ nav{
     padding: 20px;
     align-items: center;
 }
+span {
+    display: none;
+}
 nav ul {
     width: 40%;
     display: flex;
@@ -235,15 +238,15 @@ footer h5 {
 }
 
 /* mobile  */
-@media screen and (max-width:500px){
+@media screen and (max-width:800px){
     header ul {
         display: none;
     }
-    header {
-        background-size: contain;
-    }
     body {
         padding: 20px;
+    }
+    span {
+        display: flex;
     }
     .egg{
         grid-column: 1/13;
