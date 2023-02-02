@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 800px;
+}
+header {
+    background-image: url(./images/desktop/image-header.jpg);
+    background-size: cover;
+    grid-column: 1/13;
+    grid-row: 1/3;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+nav ul {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+
+}
+nav li {
+    list-style-type: none;
+}
+.contact {
+    background-color: white;
+    padding: 10px;
+    border-radius: 60px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+header h2{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+}
+.arrow img {
+    /* width: 50px; */
+    width: 25px;
+    margin-top: 10%;
+    margin-left: 50%;
+    margin-bottom: 20%;
+}
+h3 {
+    margin-bottom: 20px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+.learn {
+    font-weight: bold;
+    margin-top: 20px;
+}
+.trans {
+    grid-row: 3/5;
+    grid-column: 1/7;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.text {
+    color:  hsl(210, 4%, 67%);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+.trans .learn {
+    text-decoration: underline hsl(51, 100%, 49%) 3px;
+}
+.egg {
+    grid-row: 3/5;
+    grid-column: 7/13;
+}
+.cup {
+    grid-column: 1/7;
+    grid-row: 5/7;
+}
+.stand {
+    grid-row: 5/7;
+    grid-column: 7/13;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 40px;
+}
+.stand .learn {
+    text-decoration: underline hsl(7, 99%, 70%) 3px;
+}
+.graph{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    grid-row: 7/9;
+    grid-column: 1/7;
+    padding: 200px 40px 10px 40px;
+    font-size: 20px;
+    text-align: center;
+    color: hsl(167, 40%, 24%);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    
+}
+.photo {
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-size: cover;
+    grid-row: 7/9;
+    grid-column: 7/13;
+    font-size: 20px;
+    padding: 200px 40px 10px 40px;
+    text-align: center;
+    color: hsl(198, 62%, 20%);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+.client {
+    grid-row: 9/10;
+    grid-column: 1/13;
+    display: flex;
+    justify-content: center;
+    color: hsl(210, 4%, 67%);
+    text-transform: uppercase;
+    padding-top: 40px;
+    letter-spacing: 3px;
+}
+.emily {
+    grid-column: 1/5;
+    grid-row: 10/12;
+}
+.thomas {
+    grid-column: 5/9;
+    grid-row: 10/12;
+}
+.jennie {
+    grid-column: 9/13;
+    grid-row: 10/12;
+}
+.milk {
+    grid-column: 1/4;
+    grid-row: 12/14;
+}
+.citrus{
+    grid-column: 4/7;
+    grid-row: 12/14;
+}
+.cone {
+    grid-column: 7/10;
+    grid-row: 12/14;
+}
+.sugar {
+    grid-column: 10/13;
+    grid-row: 12/14;
+}
+.person img {
+    width: 20%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.person h5 {
+    margin-top: 20px;
+    color: black;
+    font-size: 700;
+    font-family: 'Fraunces', serif;
+    
+}
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color:  hsl(210, 4%, 67%);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+
+}
+.person p {
+    text-align: center;
+    color: hsl(213, 9%, 39%);
+}
+img {
+    width: 100%;
+}
+footer{
+    grid-row: 14/16;
+    grid-column: 1/13;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(168, 34%, 41%);
+    color: hsl(167, 40%, 15%);
+    
+}
+footer h5 {
+    font-family: 'Fraunces', serif;
+    font-weight: 1000; 
+    font-size: 20px;
+}
+.about {
+    margin-top: 20px;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+.about li {
+    list-style-type: none;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+.icons img {
+    width: 20px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+/* mobile  */
+@media screen and (max-width:500px){
+    header ul {
+        display: none;
+    }
+    header {
+        background-size: contain;
+    }
+    body {
+        padding: 20px;
+    }
+    .egg{
+        grid-column: 1/13;
+        grid-row: 3/4 ;
+    }
+    .trans {
+        grid-row: 4/5;
+        grid-column: 1/13;
+    }
+    .cup {
+        grid-column: 1/13;
+        grid-row: 5/6;
+    }
+    .stand {
+        grid-column: 1/13;
+        grid-row: 6/7;
+    }
+    .graph {
+        grid-column: 1/13;
+        grid-row: 7/8;
+    }
+    .photo {
+        grid-column: 1/13;
+        grid-row: 8/9;
+    }
+    .client {
+        grid-column: 1/13;
+        grid-row: 9/10;
+    }
+    .emily {
+        grid-column: 1/13;
+        grid-row: 10/11;
+    }
+    .thomas {
+        grid-column: 1/13;
+        grid-row: 11/12;
+    }
+    .jennie{
+        grid-column: 1/13;
+        grid-row: 12/13;
+    }
+    .milk {
+        grid-column: 1/13;
+        grid-row: 13/14;
+    }
+    .citrus {
+        grid-column: 1/13;
+        grid-row: 14/15;
+    }
+    .cone {
+        grid-column: 1/13;
+        grid-row: 15/16;
+    }
+    .sugar {
+        grid-column: 1/13;
+        grid-row: 16/17;
+    }
+    footer{
+        grid-column: 1/13;
+        grid-row: 17/18;
+    }
+}
