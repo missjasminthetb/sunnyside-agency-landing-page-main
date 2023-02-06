@@ -242,14 +242,15 @@ footer h5 {
     margin-top: 40px;
     margin-right: 10px;
 }
-.hidden{
-    display: none;
-}
+
 /* mobile  */
 @media screen and (max-width:800px){
     .ham{
         display: block;
         cursor: pointer;
+    }
+    .hidden{
+        display: none;
     }
     .nav_item{
         display: flex;
@@ -265,6 +266,7 @@ footer h5 {
         display: block;
         width: 100%;
         padding: 5px 15px;
+
     }
     nav li a {
         color: black;
